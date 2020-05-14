@@ -31,19 +31,19 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.isad157_lhumphriesMessages = new SOFT562Week18.isad157_lhumphriesMessages();
-            this.messagesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.messagesTableAdapter = new SOFT562Week18.isad157_lhumphriesMessagesTableAdapters.messagesTableAdapter();
             this.messagesTableIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.senderidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.receiveridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateandtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textcontentsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.messagesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.isad157_lhumphriesMessages = new SOFT562Week18.isad157_lhumphriesMessages();
+            this.messagesTableAdapter = new SOFT562Week18.isad157_lhumphriesMessagesTableAdapters.messagesTableAdapter();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesMessages)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.messagesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesMessages)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -72,30 +72,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(744, 288);
             this.dataGridView1.TabIndex = 10;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SOFT562Week18.Properties.Resources.Facebook_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(225, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // isad157_lhumphriesMessages
-            // 
-            this.isad157_lhumphriesMessages.DataSetName = "isad157_lhumphriesMessages";
-            this.isad157_lhumphriesMessages.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // messagesBindingSource
-            // 
-            this.messagesBindingSource.DataMember = "messages";
-            this.messagesBindingSource.DataSource = this.isad157_lhumphriesMessages;
-            // 
-            // messagesTableAdapter
-            // 
-            this.messagesTableAdapter.ClearBeforeFill = true;
             // 
             // messagesTableIDDataGridViewTextBoxColumn
             // 
@@ -132,6 +108,30 @@
             this.textcontentsDataGridViewTextBoxColumn.Name = "textcontentsDataGridViewTextBoxColumn";
             this.textcontentsDataGridViewTextBoxColumn.Width = 96;
             // 
+            // messagesBindingSource
+            // 
+            this.messagesBindingSource.DataMember = "messages";
+            this.messagesBindingSource.DataSource = this.isad157_lhumphriesMessages;
+            // 
+            // isad157_lhumphriesMessages
+            // 
+            this.isad157_lhumphriesMessages.DataSetName = "isad157_lhumphriesMessages";
+            this.isad157_lhumphriesMessages.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // messagesTableAdapter
+            // 
+            this.messagesTableAdapter.ClearBeforeFill = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SOFT562Week18.Properties.Resources.Screenshot_2020_05_13_at_15_571;
+            this.pictureBox1.Location = new System.Drawing.Point(23, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(223, 67);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // Messages
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,9 +144,9 @@
             this.Text = "Messages";
             this.Load += new System.EventHandler(this.Messages_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesMessages)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.messagesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesMessages)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -63,9 +63,19 @@ namespace SOFT562Week18.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Facebook_Logo {
+        internal static System.Drawing.Bitmap Screenshot_2020_05_13_at_15_57_21 {
             get {
-                object obj = ResourceManager.GetObject("Facebook Logo", resourceCulture);
+                object obj = ResourceManager.GetObject("Screenshot 2020-05-13 at 15.57.21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2020_05_13_at_15_571 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2020-05-13 at 15.571", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

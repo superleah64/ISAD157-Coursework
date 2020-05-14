@@ -29,14 +29,12 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
             this.txtGender = new System.Windows.Forms.TextBox();
             this.txtRelationship = new System.Windows.Forms.TextBox();
             this.txtHometown = new System.Windows.Forms.TextBox();
@@ -44,6 +42,8 @@
             this.txtEducation = new System.Windows.Forms.TextBox();
             this.txtWorkplace = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,20 +57,10 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "My Profile";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SOFT562Week18.Properties.Resources.Facebook_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(225, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(213, 185);
+            this.label2.Location = new System.Drawing.Point(211, 154);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 6;
@@ -79,7 +69,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(213, 237);
+            this.label4.Location = new System.Drawing.Point(211, 206);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 13);
             this.label4.TabIndex = 8;
@@ -88,7 +78,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(213, 263);
+            this.label5.Location = new System.Drawing.Point(211, 232);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 9;
@@ -97,7 +87,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(213, 289);
+            this.label6.Location = new System.Drawing.Point(211, 258);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 10;
@@ -106,7 +96,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(213, 315);
+            this.label7.Location = new System.Drawing.Point(211, 284);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(91, 13);
             this.label7.TabIndex = 11;
@@ -115,75 +105,93 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(213, 341);
+            this.label8.Location = new System.Drawing.Point(211, 310);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(59, 13);
             this.label8.TabIndex = 12;
             this.label8.Text = "Workplace";
             // 
-            // txtName
-            // 
-            this.txtName.Location = new System.Drawing.Point(337, 182);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(272, 20);
-            this.txtName.TabIndex = 13;
-            // 
             // txtGender
             // 
-            this.txtGender.Location = new System.Drawing.Point(337, 208);
+            this.txtGender.Location = new System.Drawing.Point(335, 177);
             this.txtGender.Name = "txtGender";
             this.txtGender.Size = new System.Drawing.Size(272, 20);
             this.txtGender.TabIndex = 14;
+            this.txtGender.Text = "Female";
             // 
             // txtRelationship
             // 
-            this.txtRelationship.Location = new System.Drawing.Point(337, 234);
+            this.txtRelationship.Location = new System.Drawing.Point(335, 203);
             this.txtRelationship.Name = "txtRelationship";
             this.txtRelationship.Size = new System.Drawing.Size(272, 20);
             this.txtRelationship.TabIndex = 15;
+            this.txtRelationship.Text = "In a Relationship";
             // 
             // txtHometown
             // 
-            this.txtHometown.Location = new System.Drawing.Point(337, 260);
+            this.txtHometown.Location = new System.Drawing.Point(335, 229);
             this.txtHometown.Name = "txtHometown";
             this.txtHometown.Size = new System.Drawing.Size(272, 20);
             this.txtHometown.TabIndex = 16;
+            this.txtHometown.Text = "Plymouth";
             // 
             // txtCurrentTown
             // 
-            this.txtCurrentTown.Location = new System.Drawing.Point(337, 286);
+            this.txtCurrentTown.Location = new System.Drawing.Point(335, 255);
             this.txtCurrentTown.Name = "txtCurrentTown";
             this.txtCurrentTown.Size = new System.Drawing.Size(272, 20);
             this.txtCurrentTown.TabIndex = 17;
+            this.txtCurrentTown.Text = "Plymouth";
             // 
             // txtEducation
             // 
-            this.txtEducation.Location = new System.Drawing.Point(337, 312);
+            this.txtEducation.Location = new System.Drawing.Point(335, 281);
             this.txtEducation.Name = "txtEducation";
             this.txtEducation.Size = new System.Drawing.Size(272, 20);
             this.txtEducation.TabIndex = 18;
+            this.txtEducation.Text = "University of Plymouth";
             // 
             // txtWorkplace
             // 
-            this.txtWorkplace.Location = new System.Drawing.Point(337, 338);
+            this.txtWorkplace.Location = new System.Drawing.Point(335, 307);
             this.txtWorkplace.Name = "txtWorkplace";
             this.txtWorkplace.Size = new System.Drawing.Size(272, 20);
             this.txtWorkplace.TabIndex = 19;
+            this.txtWorkplace.Text = "Subway";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(213, 211);
+            this.label3.Location = new System.Drawing.Point(211, 180);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 20;
             this.label3.Text = "Gender";
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(335, 151);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(272, 20);
+            this.txtName.TabIndex = 21;
+            this.txtName.Text = "Leah Humphries";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SOFT562Week18.Properties.Resources.Screenshot_2020_05_13_at_15_571;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 28);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(224, 64);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtWorkplace);
             this.Controls.Add(this.txtEducation);
@@ -191,7 +199,6 @@
             this.Controls.Add(this.txtHometown);
             this.Controls.Add(this.txtRelationship);
             this.Controls.Add(this.txtGender);
-            this.Controls.Add(this.txtName);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -218,7 +225,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtGender;
         private System.Windows.Forms.TextBox txtRelationship;
         private System.Windows.Forms.TextBox txtHometown;
@@ -226,5 +232,6 @@
         private System.Windows.Forms.TextBox txtEducation;
         private System.Windows.Forms.TextBox txtWorkplace;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtName;
     }
 }

@@ -30,11 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.isad157_lhumphriesUsers = new SOFT562Week18.isad157_lhumphriesUsers();
-            this.detailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.detailsTableAdapter = new SOFT562Week18.isad157_lhumphriesUsersTableAdapters.detailsTableAdapter();
             this.useridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,10 +38,16 @@
             this.relationshipDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hometownDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.currenttownDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.detailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.isad157_lhumphriesUsers = new SOFT562Week18.isad157_lhumphriesUsers();
+            this.detailsTableAdapter = new SOFT562Week18.isad157_lhumphriesUsersTableAdapters.detailsTableAdapter();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnMessage = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesUsers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.detailsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesUsers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -57,16 +59,6 @@
             this.label1.Size = new System.Drawing.Size(105, 37);
             this.label1.TabIndex = 7;
             this.label1.Text = "Users";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SOFT562Week18.Properties.Resources.Facebook_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(225, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
             // 
             // dataGridView1
             // 
@@ -84,22 +76,8 @@
             this.dataGridView1.DataSource = this.detailsBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(23, 138);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(765, 290);
+            this.dataGridView1.Size = new System.Drawing.Size(652, 290);
             this.dataGridView1.TabIndex = 8;
-            // 
-            // isad157_lhumphriesUsers
-            // 
-            this.isad157_lhumphriesUsers.DataSetName = "isad157_lhumphriesUsers";
-            this.isad157_lhumphriesUsers.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // detailsBindingSource
-            // 
-            this.detailsBindingSource.DataMember = "details";
-            this.detailsBindingSource.DataSource = this.isad157_lhumphriesUsers;
-            // 
-            // detailsTableAdapter
-            // 
-            this.detailsTableAdapter.ClearBeforeFill = true;
             // 
             // useridDataGridViewTextBoxColumn
             // 
@@ -150,21 +128,67 @@
             this.currenttownDataGridViewTextBoxColumn.Name = "currenttownDataGridViewTextBoxColumn";
             this.currenttownDataGridViewTextBoxColumn.Width = 94;
             // 
+            // detailsBindingSource
+            // 
+            this.detailsBindingSource.DataMember = "details";
+            this.detailsBindingSource.DataSource = this.isad157_lhumphriesUsers;
+            // 
+            // isad157_lhumphriesUsers
+            // 
+            this.isad157_lhumphriesUsers.DataSetName = "isad157_lhumphriesUsers";
+            this.isad157_lhumphriesUsers.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // detailsTableAdapter
+            // 
+            this.detailsTableAdapter.ClearBeforeFill = true;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Enabled = false;
+            this.btnAdd.Location = new System.Drawing.Point(692, 165);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(87, 23);
+            this.btnAdd.TabIndex = 9;
+            this.btnAdd.Text = "Add Friend";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // btnMessage
+            // 
+            this.btnMessage.Enabled = false;
+            this.btnMessage.Location = new System.Drawing.Point(692, 194);
+            this.btnMessage.Name = "btnMessage";
+            this.btnMessage.Size = new System.Drawing.Size(87, 23);
+            this.btnMessage.TabIndex = 10;
+            this.btnMessage.Text = "Message";
+            this.btnMessage.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SOFT562Week18.Properties.Resources.Screenshot_2020_05_13_at_15_571;
+            this.pictureBox1.Location = new System.Drawing.Point(72, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(219, 64);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // Users
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnMessage);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Users";
             this.Text = "Users";
             this.Load += new System.EventHandler(this.Users_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesUsers)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.detailsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.isad157_lhumphriesUsers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,7 +197,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private isad157_lhumphriesUsers isad157_lhumphriesUsers;
         private System.Windows.Forms.BindingSource detailsBindingSource;
@@ -185,5 +208,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn relationshipDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn hometownDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn currenttownDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnMessage;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

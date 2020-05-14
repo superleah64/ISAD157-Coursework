@@ -68,6 +68,11 @@
     <Compile Include="Homepage.Designer.cs">
       <DependentUpon>Homepage.cs</DependentUpon>
     </Compile>
+    <Compile Include="isad157_lhumphriesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>isad157_lhumphriesDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="isad157_lhumphriesMessages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -98,6 +103,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Users.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +116,9 @@
     </Compile>
     <EmbeddedResource Include="DatabaseForm.resx">
       <DependentUpon>DatabaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Friends.resx">
+      <DependentUpon>Friends.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Homepage.resx">
       <DependentUpon>Homepage.cs</DependentUpon>
@@ -121,17 +134,23 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Users.resx">
       <DependentUpon>Users.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="isad157_lhumphriesDataSet.xsc">
+      <DependentUpon>isad157_lhumphriesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="isad157_lhumphriesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>isad157_lhumphriesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="isad157_lhumphriesDataSet.xss">
+      <DependentUpon>isad157_lhumphriesDataSet.xsd</DependentUpon>
+    </None>
     <None Include="isad157_lhumphriesMessages.xsc">
       <DependentUpon>isad157_lhumphriesMessages.xsd</DependentUpon>
     </None>
@@ -168,7 +187,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Facebook Logo.png" />
+    <None Include="Resources\Screenshot 2020-05-13 at 15.57.211.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
