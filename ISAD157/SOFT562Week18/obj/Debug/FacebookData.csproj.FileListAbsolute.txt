@@ -29,3 +29,4 @@
 \\Mac\Home\Documents\GitHub\ISAD157-Coursework\ISAD157\SOFT562Week18\obj\Debug\SOFT562Week18.Profile.resources
 \\Mac\Home\Documents\GitHub\ISAD157-Coursework\ISAD157\SOFT562Week18\obj\Debug\SOFT562Week18.Messages.resources
 \\Mac\Home\Documents\GitHub\ISAD157-Coursework\ISAD157\SOFT562Week18\obj\Debug\SOFT562Week18.Users.resources
+\\Mac\Home\Documents\GitHub\ISAD157-Coursework\ISAD157\SOFT562Week18\obj\Debug\SOFT562Week18.Friends.resources

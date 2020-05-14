@@ -115,6 +115,7 @@
             // 
             this.txtGender.Location = new System.Drawing.Point(335, 177);
             this.txtGender.Name = "txtGender";
+            this.txtGender.ReadOnly = true;
             this.txtGender.Size = new System.Drawing.Size(272, 20);
             this.txtGender.TabIndex = 14;
             this.txtGender.Text = "Female";
@@ -123,6 +124,7 @@
             // 
             this.txtRelationship.Location = new System.Drawing.Point(335, 203);
             this.txtRelationship.Name = "txtRelationship";
+            this.txtRelationship.ReadOnly = true;
             this.txtRelationship.Size = new System.Drawing.Size(272, 20);
             this.txtRelationship.TabIndex = 15;
             this.txtRelationship.Text = "In a Relationship";
@@ -131,6 +133,7 @@
             // 
             this.txtHometown.Location = new System.Drawing.Point(335, 229);
             this.txtHometown.Name = "txtHometown";
+            this.txtHometown.ReadOnly = true;
             this.txtHometown.Size = new System.Drawing.Size(272, 20);
             this.txtHometown.TabIndex = 16;
             this.txtHometown.Text = "Plymouth";
@@ -139,6 +142,7 @@
             // 
             this.txtCurrentTown.Location = new System.Drawing.Point(335, 255);
             this.txtCurrentTown.Name = "txtCurrentTown";
+            this.txtCurrentTown.ReadOnly = true;
             this.txtCurrentTown.Size = new System.Drawing.Size(272, 20);
             this.txtCurrentTown.TabIndex = 17;
             this.txtCurrentTown.Text = "Plymouth";
@@ -147,6 +151,7 @@
             // 
             this.txtEducation.Location = new System.Drawing.Point(335, 281);
             this.txtEducation.Name = "txtEducation";
+            this.txtEducation.ReadOnly = true;
             this.txtEducation.Size = new System.Drawing.Size(272, 20);
             this.txtEducation.TabIndex = 18;
             this.txtEducation.Text = "University of Plymouth";
@@ -155,6 +160,7 @@
             // 
             this.txtWorkplace.Location = new System.Drawing.Point(335, 307);
             this.txtWorkplace.Name = "txtWorkplace";
+            this.txtWorkplace.ReadOnly = true;
             this.txtWorkplace.Size = new System.Drawing.Size(272, 20);
             this.txtWorkplace.TabIndex = 19;
             this.txtWorkplace.Text = "Subway";
@@ -172,6 +178,7 @@
             // 
             this.txtName.Location = new System.Drawing.Point(335, 151);
             this.txtName.Name = "txtName";
+            this.txtName.ReadOnly = true;
             this.txtName.Size = new System.Drawing.Size(272, 20);
             this.txtName.TabIndex = 21;
             this.txtName.Text = "Leah Humphries";
